@@ -1,0 +1,143 @@
+body{
+margin: 0;
+padding: 0;
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+background-color:rgb(255, 255, 255);
+}
+header{
+width: 100%;
+height: 60px;
+}
+header nav{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding: 10px;
+}
+header nav a{
+color:rgb(0, 0, 0);
+text-decoration: none;
+display: inline-block;
+margin-left: 20px;
+
+}
+header nav .icon-apps span{
+display: inline-block;
+padding: 7px;
+border-radius: 50%;
+}
+
+img{
+border-radius: 12vw;
+width: 2vw;
+}
+.azul{
+font-family: Arial, Helvetica, sans-serif;
+color: blue;
+font-size: 9vw;
+font-weight: bold;
+}
+.rojo{
+font-family: Arial, Helvetica, sans-serif;
+color: red;
+font-size: 9vw;
+font-weight: bold;
+}
+.amarillo{
+font-family: Arial, Helvetica, sans-serif;
+color:rgb(255, 183, 0);
+font-size: 9vw;
+font-weight: bold;
+}
+.verde{
+font-family: Arial, Helvetica, sans-serif;
+color: green  ;
+font-size: 9vw;
+font-weight: bold;
+}
+.letras{
+text-align: center;
+margin-top: 10vw;
+}
+input{
+width: 40vw;
+height: 3vw;
+margin-left: 30vw;
+margin-top: 2vw;
+border-radius: 3vw;
+text-align:center ;
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+border-color: rgb(49, 115, 238);
+       
+       
+}
+.lupa{
+width: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 32vw;
+margin-top: 3vw;
+position: fixed;
+text-align: center;
+
+}
+button{
+margin-top: 2vw;
+}
+.botones{
+display: flex;
+margin-top: 2vw;
+    
+   
+}
+p{
+text-align: center;
+margin-top: 2vw;
+}
+.one{
+margin-left: 36vw;
+width: 12vw;
+height: 3vw;
+font-size:12px ;
+font-family:Arial, Helvetica, sans-serif ;
+border-radius: 1vw;
+cursor: pointer;
+transition-property: box-shadow, height;
+box-shadow: 10vw, 10vw, 10vw, rebeccapurple;
+background: azure;
+border-color: aliceblue;
+
+}
+.seg{
+margin-left: 5vw;
+width: 12vw;
+height: 3vw;
+font-size:12px ;
+font-family:Arial, Helvetica, sans-serif ;
+border-radius: 1vw;
+border: solid, aliceblue;
+cursor: pointer;
+transition-property: box-shadow, height;
+box-shadow:none;
+background: azure;
+border-color: aliceblue;
+
+}
+.seg:hover{
+box-shadow: 0.5vw, 0.5vw, 2vw, blue;
+height: 3.5vw;
+background: rgb(219, 238, 255);
+
+}
+.one:hover{
+box-shadow: 12vw, 12vw, 12vw, blue;
+height: 3.5vw;
+background: rgb(219, 239, 255);    
+}
+
+    
+
+
